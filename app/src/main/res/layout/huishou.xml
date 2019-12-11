@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/et2"
+        android:layout_width="240dp"
+        android:layout_height="60dp"
+        android:layout_gravity="left"
+        android:text="回收站"
+        android:textSize="30dp" />
+
+    <ListView
+        android:id="@+id/listview2"
+        android:layout_width="360dp"
+        android:layout_height="match_parent"
+        android:textSize="20dp"
+        android:layout_below="@+id/et2"
+        />
+</RelativeLayout>
